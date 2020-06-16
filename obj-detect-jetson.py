@@ -12,7 +12,7 @@ while display.IsOpen():
 
     detections = net.Detect(img, width, height, "box,labels,conf")
 
-    print("detected {:d} objects in image".format(len(detections)))
+    # print("detected {:d} objects in image".format(len(detections)))
 
     for detection in detections:
         print(detection)
